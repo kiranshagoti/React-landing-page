@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import SideNavbar from './components/SideNavbar';
-import Navbar from './components/Navbar';
+import TopNavbar from './components/TopNavbar';
 import Chart from './components/Chart';
-
 
 import './App.css';
 
@@ -11,7 +10,7 @@ export default class App extends Component {
         return (
             <div>
                 <SideNavbar />
-                <Navbar />
+                <TopNavbar />
                 <Chart />
             </div>
         );
