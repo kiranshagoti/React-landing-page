@@ -3,7 +3,7 @@ import SideNavbar from './components/SideNavbar';
 import TopNavbar from './components/TopNavbar';
 import Chart from './components/Chart';
 import Cards from './components/Cards';
-
+import ChartButtons from './components/ChartButtons';
 import './App.css';
 
 export default class App extends Component {
@@ -29,6 +29,7 @@ export default class App extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-8">
+                                <ChartButtons />
                                 <Chart />
                             </div>
                         </div>

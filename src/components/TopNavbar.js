@@ -6,12 +6,15 @@ export default class TopNavbar extends Component {
         return (
             <>
                 <Navbar>
-                    <Nav className="mr-auto" navbar></Nav>
-                    <button className="button">New Transaction + </button>
-
-                    <img className="navicons" src="../images/search.png" />
-                    <img className="navicons" src="../images/support.png" />
-                    <img className="navicons" src="../images/notification.png" />
+                    <div class="NavbarArrangement">
+                        {/* <Nav className="mr-auto" navbar></Nav> */}
+                        <button className="button">New Transaction + </button>
+                        <div className="naviconsArrangement">
+                            <img className="navicons" alt="" src="../images/search.png" />
+                            <img className="navicons" alt="" src="../images/support.png" />
+                            <img className="navicons" alt="" src="../images/notification.png" />
+                        </div>
+                    </div>
                 </Navbar>
             </>
         );
